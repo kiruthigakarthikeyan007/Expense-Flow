@@ -1,31 +1,39 @@
-# AI Resume Analyzer
 
-A Python-based resume analyzer that evaluates resume content and provides basic feedback for improvement.
+# ExpenseFlow
+
+ExpenseFlow is a personal expense tracking dashboard built with
+Python, Streamlit, SQLite, Pandas, and Plotly.
 
 ## Features
+- Add and store expenses
+- View total, daily, and monthly spending
+- Visualize spending by category
+- Explore monthly spending trends
+- Filter transactions by category and date
+- Export transactions to CSV
+- Delete transactions
 
-- Detects technical skills
-- Checks for email address
-- Checks for phone number
-- Evaluates resume length
-- Generates a resume score
-
-## Technologies Used
-
+## Tech Stack
 - Python
+- Streamlit
+- SQLite
+- Pandas
+- Plotly
 
-## How to Run
+## Run Locally
 
-1. Download the project
-2. Open terminal
-3. Run:
+1. Clone this repository.
+2. Create and activate a Python virtual environment.
+3. Install dependencies:
 
-python resume_analyzer.py
+   pip install -r requirements.txt
 
-4. Paste resume text when prompted
+4. Start the application:
 
-## Future Improvements
+   streamlit run app.py
 
-- PDF Resume Analysis
-- AI-based Skill Recommendations
-- Resume Formatting Suggestions
+## Data Storage
+
+Expenses are stored locally in an SQLite database.
+
+
